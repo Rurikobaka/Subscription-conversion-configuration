@@ -1,0 +1,134 @@
+[custom]
+
+# 基于 blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly
+# 自用
+
+
+
+ruleset=Proxy,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DNS/DNS.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
+ruleset=DIRECT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
+ruleset=Adblock,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
+ruleset=Adblock,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
+ruleset=Adblock,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy_Classical.yaml
+ruleset=Adblock,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+ruleset=BiliBili,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/IQ.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/IQIYI.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Letv.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Netease%20Music.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Tencent%20Video.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/WeTV.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Youku.yaml
+ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.yaml
+ruleset=YouTube,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+ruleset=YouTube,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
+ruleset=Spotify,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
+ruleset=Netflix,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+ruleset=Disney,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
+ruleset=Amazon Prime Video,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.yaml
+ruleset=HBO,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.yaml
+ruleset=HBO,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOAsia/HBOAsia.yaml
+ruleset=HBO,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOHK/HBOHK.yaml
+ruleset=Hulu,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu/Hulu.yaml
+ruleset=Hulu,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluJP/HuluJP.yaml
+ruleset=Niconico,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico.yaml
+ruleset=Porn,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Porn.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/ABC.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Abema%20TV.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Bahamut.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/BBC%20iPlayer.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/DAZN.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Discovery%20Plus.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/F1%20TV.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Fox%20Now.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Fox%2B.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/encoreTVB.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Japonx.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/JOOX.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/KKBOX.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/KKTV.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Line%20TV.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/myTV%20SUPER.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Pandora.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/PBS.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Soundcloud.yaml
+ruleset=Global TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/ViuTV.yaml
+ruleset=Steam Download,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Steam%20Download.yaml
+ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
+ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Diablo%202%20Resurrected.yaml
+ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Path%20Of%20Exile.yaml
+ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Diablo%20IV.yaml
+ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Diablo%20Immortal.yaml
+ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.yaml
+ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.yaml
+ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
+ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml
+ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FitnessPlus/FitnessPlus.yaml
+ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.yaml
+ruleset=Apple,clash-classic:https://ghproxy.com/https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Apple/Apple_Classical.yaml
+ruleset=Crisp,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Crisp.yaml
+ruleset=Crypto,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Crypto.yaml
+ruleset=ChatGPT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/ChatGPT.yaml
+ruleset=Github,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+ruleset=New Bing,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.yaml
+ruleset=Microsoft,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml
+ruleset=Google Drive,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.yaml
+ruleset=Proxy,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+ruleset=Telegram,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+ruleset=Discord,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml
+ruleset=ApkPure,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apkpure/Apkpure.yaml
+ruleset=Speedtest,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
+ruleset=PayPal,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.yaml
+ruleset=Scholar,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Scholar/Scholar.yaml
+ruleset=Proxy,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Special.yaml
+ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+ruleset=Domestic,[]GEOIP,CN
+ruleset=Others,[]FINAL
+
+
+custom_proxy_group=Proxy`select`.*`[]DIRECT
+custom_proxy_group=Domestic`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=Others`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
+custom_proxy_group=Apple One`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Apple`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=Google Drive`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Scholar`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=BiliBili`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=Asian TV`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=Spotify`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=YouTube`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Netflix`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Disney`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Amazon Prime Video`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=HBO`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Hulu`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Niconico`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Porn`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Global TV`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Telegram`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Crypto`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Discord`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Steam Download`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=Game`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Crisp`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=ApkPure`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Speedtest`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=PayPal`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Github`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=Microsoft`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=ChatGPT`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=New Bing`select`[]Proxy`[]DIRECT`.*
+
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+;clash_rule_base=https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/ClashConfig.yml
