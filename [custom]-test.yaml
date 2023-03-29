@@ -26,7 +26,7 @@ ruleset=Others,[]FINAL
 custom_proxy_group=Proxy`select`.*`[]DIRECT
 custom_proxy_group=Domestic`select`[]DIRECT`[]Proxy`.*
 custom_proxy_group=Others`select`[]Proxy`[]DIRECT`.*
-custom_proxy_group=AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
+custom_proxy_group=Adblock`select`[]REJECT`[]DIRECT`[]Proxy
 
 
 enable_rule_generator=true
