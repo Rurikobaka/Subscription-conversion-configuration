@@ -42,6 +42,7 @@ ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com
 ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Path%20Of%20Exile.yaml
 ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Diablo%20IV.yaml
 ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Diablo%20Immortal.yaml
+ruleset=Game,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/Game/HoYoverse.yaml
 ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.yaml
 ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.yaml
 ruleset=Apple One,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
