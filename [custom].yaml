@@ -2,6 +2,9 @@
 
 # 基于 blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly
 # 自用
+
+
+
 ruleset=Proxy,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DNS/DNS.yaml
 ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
 ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
@@ -88,6 +91,7 @@ ruleset=Domestic,clash-classic:https://ghproxy.com/https://raw.githubusercontent
 ruleset=Domestic,[]GEOIP,CN
 ruleset=Others,[]FINAL
 
+
 custom_proxy_group=Proxy`select`.*`[]DIRECT
 custom_proxy_group=Domestic`select`[]DIRECT`[]Proxy`.*
 custom_proxy_group=Others`select`[]Proxy`[]DIRECT`.*
@@ -122,7 +126,9 @@ custom_proxy_group=Microsoft`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=ChatGPT`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=New Bing`select`[]Proxy`[]DIRECT`.*
 
+
+
 enable_rule_generator=true
 overwrite_original_rules=true
 
-;clash_rule_base=https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/ClashConfig.yml
+;clash_rule_base=https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/ClashConfig.yml
