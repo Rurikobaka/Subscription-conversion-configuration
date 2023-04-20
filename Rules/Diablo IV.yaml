@@ -1,4 +1,4 @@
-#Diablo IV
+#Diablo IV & Diablo III Switch
 payload:
   - IP-CIDR,35.227.188.0/24
   - IP-CIDR,34.84.95.0/24
@@ -7,3 +7,4 @@ payload:
   - IP-CIDR,34.22.207.0/24
   - IP-CIDR,34.151.126.0/24
   - IP-CIDR,34.84.200.0/24
+  - DOMAIN-SUFFIX,demonware.net
