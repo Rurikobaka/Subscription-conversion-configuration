@@ -8,3 +8,5 @@ payload:
   - IP-CIDR,34.151.126.0/24
   - IP-CIDR,34.84.200.0/24
   - DOMAIN-SUFFIX,demonware.net
+  - IP-CIDR,35.229.250.231/32
+  - IP-CIDR,104.199.206.13/32
