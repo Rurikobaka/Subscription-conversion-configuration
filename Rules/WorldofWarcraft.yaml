@@ -5,6 +5,7 @@
 # IP-CIDR: 8
 # TOTAL: 8
 payload:
+  - PRCOCESS-NAME,wow.exe
   - IP-CIDR,103.4.115.248/32
   - IP-CIDR,137.221.105.2/32
   - IP-CIDR,185.60.112.157/32
