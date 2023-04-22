@@ -5,10 +5,10 @@
 # IP-CIDR: 8
 # TOTAL: 8
 payload:
-  - PRCOCESS-NAME,Wow.exe
-  - PRCOCESS-NAME,WowClassic.exe
-  - PRCOCESS-NAME,Wow
-  - PRCOCESS-NAME,WowClassic
+  - PROCESS-NAME,Wow.exe
+  - PROCESS-NAME,WowClassic.exe
+  - PROCESS-NAME,Wow
+  - PROCESS-NAME,WowClassic
   - IP-CIDR,103.4.115.248/32
   - IP-CIDR,137.221.105.2/32
   - IP-CIDR,185.60.112.157/32
