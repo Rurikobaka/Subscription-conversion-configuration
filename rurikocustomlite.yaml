@@ -8,7 +8,7 @@ ruleset=DIRECT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.c
 ruleset=REJECT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 ruleset=DIRECT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
 ruleset=DIRECT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
-ruleset=DIRECT,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare/Cloudflare.yaml
+ruleset=CloudFlare,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare/Cloudflare.yaml
 ruleset=Proxy,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.yaml
 ruleset=Steam Download,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Steam%20Download.yaml
 ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
@@ -50,6 +50,7 @@ ruleset=Proxy,[]FINAL
 
 
 custom_proxy_group=Proxy`select`.*`[]DIRECT
+custom_proxy_group=CloudFlare`select`[]DIRECT`[]Proxy`.*
 custom_proxy_group=Apple`select`[]DIRECT`[]Proxy`.*
 custom_proxy_group=Google`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=Microsoft`select`[]Proxy`[]DIRECT`.*
