@@ -1,7 +1,7 @@
 #Diablo IV & Diablo III Switch
 payload:
   - PROCESS-NAME,Diablo IV.exe
-  - PROCESS-NAME,Diablo IV Retail.exe
+  - PROCESS-NAME,Diablo IV Launcher.exe
   - PROCESS-NAME,PathOfExile.exe
   - PROCESS-NAME,PathOfExile_x64.exe
   - PROCESS-NAME,Client.exe
