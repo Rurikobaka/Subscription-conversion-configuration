@@ -12,4 +12,3 @@ payload:
   - DOMAIN-SUFFIX,prod.actual.battle.net
   - DOMAIN-SUFFIX,cdn.blz-contentstack.com
   - DOMAIN-SUFFIX,ocsp2.globalsign.com
-  - IP-CIDR,34.173.119.91/32
