@@ -10,4 +10,6 @@ payload:
   - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,d4.ingest.gdp.blizzard.com
   - DOMAIN-SUFFIX,prod.actual.battle.net
-  - DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,cdn.blz-contentstack.com
+  - DOMAIN-SUFFIX,ocsp2.globalsign.com
+  - IP-CIDR,34.173.119.91/32
