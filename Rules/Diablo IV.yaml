@@ -8,3 +8,6 @@ payload:
   - PROCESS-NAME,Diablo III.exe
   - PROCESS-NAME,Heroes of the Storm.exe
   - DOMAIN-SUFFIX,demonware.net
+  - DOMAIN-SUFFIX,d4.ingest.gdp.blizzard.com
+  - DOMAIN-SUFFIX,prod.actual.battle.net
+  - DOMAIN-SUFFIX,
