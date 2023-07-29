@@ -3,13 +3,13 @@
 # 或者运行目录下的config.yml
 #---------------------------------------------------#
 # 混合端口 HTTP和SOCKS5用一个端口
-mixed-port: 20000
+mixed-port: 7890
 
 # HTTP 代理端口
-port: 20001
+port: 7892
 
 # SOCKS5 代理端口
-socks-port: 20002
+socks-port: 7891
 
 # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
 # redir-port: 7892
@@ -21,18 +21,18 @@ allow-lan: true
 # #"*": 绑定所有IP地址
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
-bind-address: "*"
-ipv6: false
+#bind-address: "*"
+ipv6: true
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
-# mode: rule
+mode: rule
 
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: info
 
 # Clash 的 RESTful API
-external-controller: '127.0.0.1:19999'
+external-controller: '127.0.0.1:9090'
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
@@ -62,37 +62,161 @@ experimental:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
-#dns:
-  #enable: true # 是否启用dns false
-  #ipv6: false
-  #listen: 0.0.0.0:53
-  #enhanced-mode: redir-host # 模式：redir-host或fake-ip
-  #fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
-  #nameserver:
-     #- 223.5.5.5 # 阿里DNS
-     #- 180.76.76.76 # 百度DNS
-     #- 119.29.29.29 # 腾讯DNS
-     #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-     #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-     #- 114.114.114.114 # 114DNS
-     #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
-     #- https://doh.360.cn/dns-query # 360 DoH DNS
-  #fallback:
-     #- 8.8.8.8 # 谷歌DNS
-     #- 1.1.1.1 # Cloudflare DNS
-     #- tls://dns.rubyfish.cn:853
-     #- tls://1.0.0.1:853
-     #- tls://dns.google:853
-     #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
-  #fallback-filter:
-     #geoip: true # 默认
-     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-       #- 240.0.0.0/4
+dns:
+  enable: true # 是否启用dns false
+  ipv6: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 223.5.5.5
+  enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time-ios.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - "+.qq.com"
+    - "+.tencent.com"
+    - "+.srv.nintendo.net"
+    - "*.n.n.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.*.xboxlive.com"
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "+.stun.*.*.*.*.*"
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - na.b.g-tun.com
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    - "*.mcdn.bilivideo.cn"
+    - "+.media.dssott.com"
+    - shark007.net
+    - Mijia Cloud
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+    - local.adguard.org
+    - "+.sandai.net"
+    - "+.n0808.com"
+    - "+.dns.google"
+    - "+.dns.cloudflare.com"
+    - "+.dns10.quad9.net"
+    - "+.dns.alidns.com"
+    - "+.dns.adguard-dns.com"
+    - "+.public.dns.iij.jp"
+    - "+.doh.360.cn"
+    - "+.dns.twnic.tw"
+    - "+.jd.com"
+    - "+.weibo.com"
+    - "+.cowtransfer.com"
+    - "+.battle.net"
+  nameserver:
+    - https://223.5.5.5/dns-query  # 阿里 DoH
+    - https://doh.pub/dns-query  # 騰訊 DoH
+  fallback:
+    - tls://dns.google:853  # Google DoT
+    - tls://cloudflare-dns.com  # CloudFlare DoT
+    - https://1.1.1.1/dns-query  # CloudFlare DoH
+    - https://8.8.8.8/dns-query  # Google DoH
+  fallback-filter:
+     geoip: true # 默认
+     geoip-code: CN  # GEOIP 地區
+     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       - 240.0.0.0/4
+     domain:
+       - "+.google.com"
+       - "+.facebook.com"
+       - "+.youtube.com"
+       - "+.crisp.chat"
+       - "+.githubusercontent.com"
+       - "+.googlevideo.com"
+       - "+.msftconnecttest.com"
+       - "+.msftncsi.com"
+       - msftconnecttest.com
+       - msftncsi.com
+     nameserver-policy:
+       "*.msftconnecttest.com": https://223.5.5.5/dns-query
+       "*.msftncsi.com": https://223.5.5.5/dns-query
 
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
@@ -131,7 +255,7 @@ experimental:
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 3000
-cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-latency-url: http://cp.cloudflare.com/generate_204
 
 # 混合配置（mixin）
 # 支持向所有配置文件中注入公共属性设置
@@ -159,7 +283,7 @@ cfw-latency-url: http://www.gstatic.com/generate_204
 # Options for profile: true, false
 # Options for mode: true, false
 cfw-conn-break-strategy:
-  proxy: none # none/chain/all
+  proxy: chain # none/chain/all
   profile: true # true/false
   mode: false # true/false
 
@@ -259,6 +383,7 @@ cfw-bypass:
   - "*.pdfwifi.com"
   - "*.zhenguanyu.biz"
   - "*.zhenguanyu.com"
+  - "*.snapdrop.net"
   # CN域名直连(中国|公司|网络)
   - "*.cn"
   - "*.xn--fiqs8s"
@@ -363,6 +488,10 @@ cfw-bypass:
   - "*.hdslb.com"
   - "*.im9.com"
   - "*.smtcdns.net"
+  # Blizzard
+  - "*.battle.net"
+  - "*.battlenet.com"
+  - "*.blizzard.com"
   # ByteDance
   - "*.amemv.com"
   - "*.bdxiguaimg.com"
@@ -378,6 +507,7 @@ cfw-bypass:
   - "*.bytetos.com"
   - "*.bytexservice.com"
   - "*.douyin.com"
+  - "*.douyincdn.com"
   - "*.douyinpic.com"
   - "*.douyinstatic.com"
   - "*.douyinvod.com"
@@ -554,6 +684,7 @@ cfw-bypass:
   - "st.dl.bscstorage.net"
   - "st.dl.eccdnx.com"
   - "st.dl.pinyuncloud.com"
+  - "xz.pphimalayanrt.com"
   - "steampipe.steamcontent.tnkjmec.com"
   - "steampowered.com.8686c.com"
   - "steamstatic.com.8686c.com"
@@ -610,46 +741,6 @@ cfw-bypass:
   - "*.zmzapi.com"
   - "*.zmzapi.net"
   - "*.zmzfile.com"
-  # Private Tracker
-  - "*announce*"
-  - "*torrent*"
-  - "*tracker*"
-  - "*.animebytes.tv"
-  - "*.animetorrents.me"
-  - "*.awesome-hd.me"
-  - "*.beitai.pt"
-  - "*.bittorrent.com"
-  - "*.broadcasthe.net"
-  - "*.chdbits.co"
-  - "*.classix-unlimited.co.uk"
-  - "*.empornium.me"
-  - "*.gazellegames.net"
-  - "*.hd4fans.org"
-  - "*.hdchina.org"
-  - "*.hdhome.org"
-  - "*.hdsky.me"
-  - "*.hdtime.org"
-  - "*.hdzone.me"
-  - "*.icetorrent.org"
-  - "*.jpopsuki.eu"
-  - "*.keepfrds.com"
-  - "*.leaguehd.com"
-  - "*.m-team.cc"
-  - "*.madsrevolution.net"
-  - "*.msg.vg"
-  - "*.nanyangpt.com"
-  - "*.ncore.cc"
-  - "*.open.cd"
-  - "*.ourbits.club"
-  - "*.passthepopcorn.me"
-  - "*.privatehd.to"
-  - "*.pthome.net"
-  - "*.redacted.ch"
-  - "*.springsunday.net"
-  - "*.tjupt.org"
-  - "*.tju.pt"
-  - "*.totheglory.im"
-  - "*.trontv.com"
   # TeamViewer
   - "*.teamviewer.com"
   # Public Direct CDN 公共直连
@@ -658,6 +749,10 @@ cfw-bypass:
   - "*.jiasule.com"
   - "*.staticfile.org"
   - "*.upaiyun.com"
+  # China DNS
+  - "*.doh.pub"
+  - "*.dns.alidns.com"
+  - "*.doh.360.cn"
   # AccelerateDirectSites
   - "*.10010.com"
   - "*.115.com"
@@ -723,6 +818,7 @@ cfw-bypass:
   - "*.eastday.com"
   - "*.eastmoney.com"
   - "*.ecitic.com"
+  - "*.element-plus.org"
   - "*.ewqcxz.com"
   - "*.fang.com"
   - "*.fantasy.tv"
