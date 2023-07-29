@@ -70,4 +70,4 @@ custom_proxy_group=New Bing`select`[]Proxy`[]DIRECT`.*
 enable_rule_generator=true
 overwrite_original_rules=true
 
-;clash_rule_base=https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/ClashConfig.yml
+clash_rule_base=https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/ClashConfig.yml
