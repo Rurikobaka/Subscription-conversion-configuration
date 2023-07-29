@@ -143,16 +143,16 @@ dns:
     ipcidr:
       - 240.0.0.0/4
     domain:
-    - "+.google.com"
-    - "+.facebook.com"
-    - "+.youtube.com"
-    - "+.crisp.chat"
-    - "+.githubusercontent.com"
-    - "+.googlevideo.com"
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
-    - msftconnecttest.com
-    - msftncsi.com
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.crisp.chat"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - msftconnecttest.com
+      - msftncsi.com
   nameserver-policy:
-    "*.msftconnecttest.com": https://223.5.5.5/dns-query
-    "*.msftncsi.com": https://223.5.5.5/dns-query
+      "*.msftconnecttest.com": https://223.5.5.5/dns-query
+      "*.msftncsi.com": https://223.5.5.5/dns-query
