@@ -6,7 +6,7 @@ dns:
   ipv6: true
   listen: 0.0.0.0:53
   default-nameserver:
-    - https://223.5.5.5/dns-query
+    - 223.5.5.5
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
