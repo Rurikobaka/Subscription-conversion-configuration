@@ -1,0 +1,12 @@
+payload:
+  - DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
+  - DOMAIN-SUFFIX,update.avlyun.sec.miui.com
+  - DOMAIN-SUFFIX,ixav-cse.avlyun.com
+  - DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
+  - DOMAIN-SUFFIX,miui-fxcse.avlyun.com
+  - DOMAIN-SUFFIX,sdkconf.avlyun.com
+  - DOMAIN-SUFFIX,miav-cse.avlyun.com
+  - DOMAIN-SUFFIX,api.installer.xiaomi.com
+  - DOMAIN-SUFFIX,tmfsdk.m.qq.com
+  - DOMAIN-SUFFIX,a0.app.xiaomi.com
+  - DOMAIN-SUFFIX,sec.miui.com
