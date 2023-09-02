@@ -21,7 +21,7 @@ WorldofWarcraft.yaml        —————>>> 魔獸世界規則，部分來源
 apk.yaml                    —————>>> APKPure 和 APKMirror，部分來自於 blackmatrix7
 gov.yaml                    —————>>> 常見的 GOV 規則，某些代理審計 GOV，設定為 DIRECT 就可以直連訪問；或者設定為 REJECT 禁止訪問 GOV 
 
-DNS.stoverride              —————>>> 自用 Stash 複寫，和 [ClashConfig.yml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/ClashConfig.yml) 內容一致
+DNS.stoverride              —————>>> 自用 Stash 複寫，和 ClashConfig.yml 內容一致
 ```
 
 ## 主倉庫
