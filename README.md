@@ -1,6 +1,6 @@
 # 訂閱轉換模板
 
-模板來自 ACL4SSR，規則基於 `blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly` 以及我的朋友，感謝！
+模板來自 `ACL4SSR`，規則基於 `blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly` 以及我的朋友，感謝！
 
 ## Rules
 
@@ -26,7 +26,7 @@ DNS.stoverride              —————>>> 自用 Stash 複寫，和 ClashCo
 
 ## 主倉庫
 
-### rurikocustom.yaml  全面規則，如果不是很清楚各個策略組作用建議使用 [rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)
+### `rurikocustom.yaml`  全面規則，如果不是很清楚各個策略組作用建議使用 [rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)
 
 幾個特殊需要說明的策略組
 
@@ -39,7 +39,7 @@ Steam Download   —————>>> 建議設定為 DIRECT，以達到社區、�
 Game             —————>>> 除了 Steam 其他遊戲平台的遊戲下載均會命中此策略組規則
 ```
 
-### rurikocustomlite.yaml  精簡版規則，策略組數量極少，適合日常使用
+### `rurikocustomlite.yaml`  精簡版規則，策略組數量極少，適合日常使用
 
 幾個特殊需要說明的策略組
 
@@ -50,15 +50,15 @@ Steam Download   —————>>> 建議設定為 DIRECT，以達到社區、�
 Game             —————>>> 除了 Steam 其他遊戲平台的遊戲下載均會命中此策略組規則
 ```
 
-rurikocustom.yaml 中的 Domestic 預設為 DIRECT，Others 預設為 Proxy，Adblock 預設為 REJECT，且無法修改，一般來說也不需要進行修改，方便使用
+`rurikocustom.yaml` 中的 `Domestic` 預設為 `DIRECT`，`Others` 預設為 `Proxy`，`Adblock` 預設為 `REJECT`，且無法修改，一般來說也不需要進行修改，方便使用
 
-### TikTok.yaml 
+### `TikTok.yaml`
 
-在 rurikocustomlite.yaml 的基礎上新增了 TikTok 策略組，用於訪問各個地區的 TikTok
+在 `rurikocustomlite.yaml` 的基礎上新增了 `TikTok` 策略組，用於訪問各個地區的 TikTok
 
-### :D.yaml
+### `:D.yaml`
 
-朋友定製，基於 rurikocustomlite.yaml 修改
+朋友定製，基於 `rurikocustomlite.yaml` 修改
 
 ```
 · 新增 MIUI 更新規則並預設為 REJECT 
@@ -67,6 +67,6 @@ rurikocustom.yaml 中的 Domestic 預設為 DIRECT，Others 預設為 Proxy，Ad
 · 獨立出 Spotify 策略組 
 ```
 
-### ClashConfig.yml
+### `ClashConfig.yml`
 
-使用我的訂閱轉換模板並且轉換為 clash 訂閱的 端口 以及 DNS 字段的配置
+使用我的訂閱轉換模板並且轉換為 `clash` 訂閱的 `端口` 以及 `DNS` 字段的配置
