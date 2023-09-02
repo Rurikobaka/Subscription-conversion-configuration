@@ -2,11 +2,11 @@
 
 模板來自 `ACL4SSR`，規則基於 `blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly` 以及我的朋友，感謝！
 
-## Rules
+### Rules
 
 此資料夾下為我特殊需要無法直接使用上述規則來源的規則集，所以進行了一些修改方便使用，以及我自己來源維護的一些規則
 
-### 規則說明：
+#### 規則說明：
 
 ```
 :D.yaml                     —————>>> MIUI 阻止更新規則，需設定為 REJECT （幫朋友製作）
@@ -24,9 +24,9 @@ gov.yaml                    —————>>> 常見的 GOV 規則，某些代�
 DNS.stoverride              —————>>> 自用 Stash 複寫，和 ClashConfig.yml 內容一致
 ```
 
-## 主倉庫
+### 主倉庫
 
-### `rurikocustom.yaml`  全面規則，如果不是很清楚各個策略組作用建議使用 [rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)
+#### `rurikocustom.yaml`  全面規則，如果不是很清楚各個策略組作用建議使用 [rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)
 
 幾個特殊需要說明的策略組
 
@@ -39,7 +39,7 @@ Steam Download   —————>>> 建議設定為 DIRECT，以達到社區、�
 Game             —————>>> 除了 Steam 其他遊戲平台的遊戲下載均會命中此策略組規則
 ```
 
-### `rurikocustomlite.yaml`  精簡版規則，策略組數量極少，適合日常使用
+#### `rurikocustomlite.yaml`  精簡版規則，策略組數量極少，適合日常使用
 
 幾個特殊需要說明的策略組
 
@@ -52,11 +52,11 @@ Game             —————>>> 除了 Steam 其他遊戲平台的遊戲下�
 
 `rurikocustom.yaml` 中的 `Domestic` 預設為 `DIRECT`，`Others` 預設為 `Proxy`，`Adblock` 預設為 `REJECT`，且無法修改，一般來說也不需要進行修改，方便使用
 
-### `TikTok.yaml`
+#### `TikTok.yaml`
 
 在 `rurikocustomlite.yaml` 的基礎上新增了 `TikTok` 策略組，用於訪問各個地區的 TikTok
 
-### `:D.yaml`
+#### `:D.yaml`
 
 朋友定製，基於 `rurikocustomlite.yaml` 修改
 
@@ -67,6 +67,6 @@ Game             —————>>> 除了 Steam 其他遊戲平台的遊戲下�
 · 獨立出 Spotify 策略組 
 ```
 
-### `ClashConfig.yml`
+#### `ClashConfig.yml`
 
 使用我的訂閱轉換模板並且轉換為 `clash` 訂閱的 `端口` 以及 `DNS` 字段的配置
