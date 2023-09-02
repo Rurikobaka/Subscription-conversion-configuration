@@ -2,9 +2,6 @@
 payload:
   - PROCESS-NAME,Diablo IV.exe
   - PROCESS-NAME,Diablo IV Launcher.exe
-  - PROCESS-NAME,PathOfExile.exe
-  - PROCESS-NAME,PathOfExile_x64.exe
-  - PROCESS-NAME,Client.exe
   - PROCESS-NAME,Diablo III.exe
   - PROCESS-NAME,Heroes of the Storm.exe
   - DOMAIN-SUFFIX,demonware.net
