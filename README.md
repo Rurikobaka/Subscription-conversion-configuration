@@ -26,7 +26,7 @@ DNS.stoverride              —————>>> 自用 Stash 複寫，和 ClashCo
 
 ### 主倉庫
 
-#### `rurikocustom.yaml`  全面規則，如果不是很清楚各個策略組作用建議使用 [rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)
+#### `rurikocustom.yaml`  全面規則，如果不是很清楚各個策略組作用建議使用 `[rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)`
 
 幾個特殊需要說明的策略組
 
