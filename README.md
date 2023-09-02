@@ -2,7 +2,7 @@
 
 模板來自 ACL4SSR，規則基於 blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly 以及我的朋友，感謝！
 
-## Rules
+### Rules
 
 此資料夾下為我特殊需要無法直接使用上述規則來源的規則集，所以進行了一些修改方便使用，以及我自己來源維護的一些規則
 
@@ -22,7 +22,7 @@ gov.yaml                    —————>>> 常見的 GOV 規則，某些代�
 
 DNS.stoverride              —————>>> 自用 Stash 複寫，和 [ClashConfig.yml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/ClashConfig.yml) 內容一致
 
-## 主倉庫
+### 主倉庫
 
 #### rurikocustom.yaml  全面規則，如果不是很清楚各個策略組作用建議使用 [rurikocustomlite.yaml](https://github.com/Rurikobaka/Subscription-conversion-configuration/blob/main/rurikocustomlite.yaml)
 
