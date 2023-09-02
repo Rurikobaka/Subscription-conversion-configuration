@@ -1,6 +1,6 @@
 # 訂閱轉換模板
 
-模板來自 `ACL4SSR`，規則基於 `blackmatrix7,hope140,dler-io,sstap-rules,LM-Firefly` 以及我的朋友，感謝！
+模板來自 `ACL4SSR`，規則基於 `blackmatrix7`,`hope140`,`dler-io`,`sstap-rules`,`LM-Firefly` 以及我的朋友，感謝！
 
 ## Rules
 
