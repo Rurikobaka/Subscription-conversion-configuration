@@ -27,7 +27,7 @@ ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent
 ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/WeTV.yaml
 ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Youku.yaml
 ruleset=Asian TV,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.yaml
-ruleset=WiFiCalling,https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/WiFiCalling.list
+ruleset=1,https://ghproxy.com/https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/WiFiCalling.list
 ruleset=YouTube,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
 ruleset=YouTube,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
 ruleset=Spotify,clash-classic:https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
@@ -104,7 +104,7 @@ custom_proxy_group=Github`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=Microsoft`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=ChatGPT`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=New Bing`select`[]Proxy`[]DIRECT`.*
-custom_proxy_group=WifiCalling`select`[]Proxy`[]DIRECT`.*
+custom_proxy_group=1`select`[]Proxy`[]DIRECT`.*
 
 
 
