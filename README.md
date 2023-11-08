@@ -14,12 +14,14 @@ ChatGPT.yaml                —————>>> ChatGPT 規則，來源於 dler-i
 Crisp.yaml                  —————>>> Crisp 規則 
 Diablo 2 Resurrected.yaml   —————>>> 暗黑破壞神 2 重製版規則，來源於 sstap-rules
 Diablo IV.yaml              —————>>> 暗黑破壞神 4 規則，同時包含流亡黯道、暴雪英霸，來源於朋友，應該是目前比較全面的規則了
+Diablo IV.list              —————>>> 同上，不過是 Surge 版本
 Diablo Immortal.yaml        —————>>> 暗黑破壞神 永生不朽規則
 Path Of Exile.yaml          —————>>> 流亡黯道規則，來自 sstap-rules （和上面的 Diablo IV.yaml 規則類型不同，有點懶得改了）
 Steam Download.yaml         —————>>> Steam 下載遊戲的規則，建議設定為 DIRECT，來源於 blackmatrix7
 WorldofWarcraft.yaml        —————>>> 魔獸世界規則，部分來源於 blackmatrix7，部分來源於朋友補全，應該是目前比較全面的規則了
 apk.yaml                    —————>>> APKPure 和 APKMirror，部分來自於 blackmatrix7
-gov.yaml                    —————>>> 常見的 GOV 規則，某些代理審計 GOV，設定為 DIRECT 就可以直連訪問；或者設定為 REJECT 禁止訪問 GOV 
+gov.yaml                    —————>>> 常見的 GOV 規則，某些代理審計 GOV，設定為 DIRECT 就可以直連訪問；或者設定為 REJECT 禁止訪問 GOV
+WiFiCalling.list            —————>>> WiFi 通話相關規則
 ```
 ```
 DNS.stoverride              —————>>> 自用 Stash 複寫，和 ClashConfig.yml 內容一致
