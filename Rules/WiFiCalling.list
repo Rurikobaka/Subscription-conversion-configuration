@@ -1,6 +1,8 @@
 IP-CIDR,66.94.0.0/19,no-resolve
 IP-CIDR,206.29.177.36/32,no-resolve
 IP-CIDR,208.54.0.0/16,no-resolve
+DST-PORT,500
+DST-PORT,4500
 
 DOMAIN-SUFFIX,t-mobile.com
 DOMAIN-SUFFIX,3gppnetwork.org
