@@ -73,3 +73,7 @@ Game             —————>>> 除了 Steam 其他遊戲平台的遊戲下�
 #### `ClashConfig.yml`
 
 使用我的訂閱轉換模板並且轉換為 `clash` 訂閱的 `端口` 以及 `DNS` 字段的配置
+
+#### `ruriko_hw.yaml`
+
+`rurikocustom.yaml`  全面規則對於 硬路由（CPU 性能超低的那種） 的優化版，去掉了大量不是很重要的規則，以減輕負擔
