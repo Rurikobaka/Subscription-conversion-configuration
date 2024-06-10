@@ -45,6 +45,18 @@ payload:
   - IP-CIDR,64.23.132.171/32
   - IP-ASN,20473
 
+  # > Copilot
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,microsoft-falcon.io
+  - DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN,api.msn.com
+  - DOMAIN,assets.msn.com
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,location.microsoft.com
+  - DOMAIN,login.microsoftonline.com
+  - DOMAIN,self.events.data.microsoft.com
+  
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
