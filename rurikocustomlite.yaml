@@ -58,7 +58,7 @@ ruleset=Proxy,[]FINAL
 
 custom_proxy_group=Proxy`select`.*`[]DIRECT
 custom_proxy_group=CloudFlare`select`[]DIRECT`[]Proxy`.*
-custom_proxy_group=Apple`select`[]DIRECT`[]Proxy`.*
+custom_proxy_group=Apple`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=Google`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=Microsoft`select`[]Proxy`[]DIRECT`.*
 custom_proxy_group=Twitter`select`[]Proxy`[]DIRECT`.*
