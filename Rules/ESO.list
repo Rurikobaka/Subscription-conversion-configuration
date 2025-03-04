@@ -1,6 +1,6 @@
 #The Elder Scrolls Online,上古卷轴OL,0,0,1,0,1,0,By-FQrabbit
 DOMAIN-SUFFIX,elderscrollsonline.com
-DOMAIN-SUFFIX,bethesda.net
+DOMAIN-KEYWORD,bethesda
 IP-CIDR,224.0.0.0/4
 IP-CIDR,150.100.230.0/24
 IP-CIDR,159.100.230.0/24
