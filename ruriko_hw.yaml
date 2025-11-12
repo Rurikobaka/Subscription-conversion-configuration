@@ -5,7 +5,7 @@
 
 
 
-;ruleset=Adblock,clash-classic:https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
+;ruleset=Adblock,clash-classic:https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/AdBlock.yaml
 ruleset=Domestic,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
 ruleset=Domestic,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
 ruleset=Steam Download,clash-classic:https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Steam%20Download.yaml
@@ -111,3 +111,4 @@ enable_rule_generator=true
 overwrite_original_rules=true
 
 clash_rule_base=https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/ClashConfig.yml
+
