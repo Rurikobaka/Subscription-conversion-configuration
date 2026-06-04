@@ -8,6 +8,7 @@
 ruleset=REJECT,clash-classic:https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/AdBlock.yaml
 ruleset=DIRECT,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
 ruleset=DIRECT,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.yaml
+ruleset=Apple,clash-classic:https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Apple%20Push.yaml
 ruleset=DIRECT,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.yaml
 ruleset=DIRECT,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleFirmware/AppleFirmware.yaml
 ruleset=Steam Download,clash-classic:https://raw.githubusercontent.com/Rurikobaka/Subscription-conversion-configuration/main/Rules/Steam%20Download.yaml
@@ -36,7 +37,6 @@ ruleset=Apple,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_r
 ruleset=Apple,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDaily/AppleDaily.yaml
 ruleset=Apple,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.yaml
 ruleset=Apple,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.yaml
-ruleset=Apple,clash-classic:https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Apple%20Push.yaml
 ruleset=Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_Classical.yaml
 ruleset=Porn,clash-classic:https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Porn.yaml
 ruleset=Global TV,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
